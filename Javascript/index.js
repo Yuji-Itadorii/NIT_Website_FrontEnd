@@ -42,19 +42,19 @@ function Activitesdropdown(){
     }
 }
 
-document.getElementById('slider').style.backgroundImage = "url('/image/slide1.jpeg')";
+document.getElementById('slider').style.backgroundImage = "url('image/slide1.jpeg')";
 setInterval(() => {
     
     setTimeout(() => {
-        document.getElementById('slider').style.backgroundImage = "url('/image/slide2.jpg')";
+        document.getElementById('slider').style.backgroundImage = "url('image/slide2.jpg')";
     }, 3000);
 
     setTimeout(() => {
-        document.getElementById('slider').style.backgroundImage = "url('/image/slide3.jpeg')";
+        document.getElementById('slider').style.backgroundImage = "url('image/slide3.jpeg')";
     }, 6000);
 
     setTimeout(() => {
-        document.getElementById('slider').style.backgroundImage = "url('/image/slide1.jpeg')";
+        document.getElementById('slider').style.backgroundImage = "url('image/slide1.jpeg')";
     }, 9000);
 
 }, 9000);
